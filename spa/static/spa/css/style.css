@@ -1,0 +1,52 @@
+.image{
+  background: url(/static/spa/images/spa-image.jpg) no-repeat center center;
+  background-size: cover;
+  height: 720px;
+  width: auto;
+}
+.nav-link{
+  font-size: 15px;
+}
+.home-heading{
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 70px;
+  text-align: end;
+}
+.home-div-container{
+  min-height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-desc{
+  color: #7F7F7F;
+  font-size: 16px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 30px; 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;  
+  margin-bottom: 0;
+  text-align: end;
+}
+
+.footer-link,.footer-copyright{
+  text-decoration: none;
+  color: #7F7F7F;
+  font-size: 13px;
+}
+.footer-link:hover{
+  text-decoration: none;
+  color: #4c4c4c;
+}
