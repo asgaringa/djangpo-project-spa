@@ -136,5 +136,5 @@ STATICFILES_DIRS = [STATIC_DIR]
 
 
 # Login redirect
-LOGIN_REDIRECT_URL = 'login_success'
+LOGIN_REDIRECT_URL = 'accounts:login_sucess'
 LOGOUT_REDIRECT_URL = 'home'

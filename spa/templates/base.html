@@ -43,9 +43,9 @@
         <div class="container-fluid">
           
           {% if user.is_authenticated %}
-          <a class='footer-link' href="{% url 'accounts:logout' %}"><span>Logout </span></a>
+          <a class='footer-link' href="{% url 'logout' %}"><span>Logout </span></a>
           {% else %}
-          <a class='footer-link' href="{% url 'accounts:login' %}"><span>Login </span></a>
+          <a class='footer-link' href="{% url 'login' %}"><span>Login </span></a>
           {% endif %}    
           <span class='footer-copyright'>| &copy; 2019 Antonio Garinga</span>
                 
